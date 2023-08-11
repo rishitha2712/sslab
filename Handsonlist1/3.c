@@ -5,7 +5,7 @@
 #include<fcntl.h>
 
 int main(){
-	int fd=creat("a.txt",O_CREAT|O_RDWR);
+	int fd=creat("test.txt",O_CREAT);
 	printf("File Descriptor value is %d ",fd);
 	return 0;
 }
