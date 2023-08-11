@@ -15,11 +15,11 @@ read choice
 
 case $choice in 
 	1)
-		echo "Enter Employee Name:"
+		echo -n "Enter Employee Name:"
 		read ename
-		echo "Enter Employee Number:"
+		echo -n "Enter Employee Number:"
 		read eno
-		echo "Enter Phone Number:"
+		echo -n "Enter Phone Number:"
 		read ph
 		if grep -q "^.* $eno .*$" employee.txt; then
 			echo "Employee Number already exists can't create duplicates"
