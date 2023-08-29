@@ -1,0 +1,4 @@
+Hi How are you
+I am rishitha
+I will be printed in b.txt
+Using fcntl
