@@ -39,7 +39,7 @@ int main(){
 		setsid();
 		sleep(mktime(&dt)-mktime(ct));
 		printf("Deamon Process \n");
-		execl("/bin/sh","sh","/home/himarishitha/SSLab/Handsonlist1/a.sh",NULL);
+		execl("/bin/sh","sh","/home/himarishitha/SSLab/Handsonlist1/30/a.sh",NULL);
 	}
 
 	else{

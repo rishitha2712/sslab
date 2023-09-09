@@ -26,7 +26,7 @@ int main(){
         int dup=fcntl(fd,F_DUPFD,6);
         int wr=write(fd,"Hi How are you\n",15);
         int dwr=write(temp,"I am rishitha\n",14);
-        write(fd,"I will be printed in b.txt\n",27);
+        write(new,"I will be printed in b.txt\n",27);
         write(dup,"Using fcntl\n",12);
         close(fd);
         close(temp);
